@@ -122,6 +122,7 @@
             <Require-Bundle>org.lucee.xml.xerces;bundle-version=2.11.0,org.lucee.xml.apis;bundle-version=1.4.1</Require-Bundle>
             <!-- <Import-Package>*</Import-Package> -->
             <!-- <DynamicImport-Package>*</DynamicImport-Package> -->
+          <Fragment-Host>apache.xml.xalan</Fragment-Host>
           </instructions>
         </configuration>
         <extensions>true</extensions>
