@@ -120,9 +120,10 @@
             <Bundle-Description>OSGI version of jar ${project.name}</Bundle-Description>
             <Export-Package>*</Export-Package>
             <Require-Bundle>org.lucee.xml.xerces;bundle-version=2.11.0,org.lucee.xml.apis;bundle-version=1.4.1</Require-Bundle>
+            <!-- <Require-Bundle-Fragment></Require-Bundle-Fragment> -->
             <!-- <Import-Package>*</Import-Package> -->
             <!-- <DynamicImport-Package>*</DynamicImport-Package> -->
-          <Fragment-Host>org.lucee.xalan</Fragment-Host>
+            <Fragment-Host>org.lucee.xalan</Fragment-Host>
           </instructions>
         </configuration>
         <extensions>true</extensions>
